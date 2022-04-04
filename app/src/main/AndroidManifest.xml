@@ -22,7 +22,16 @@
             android:name=".SecondActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SECOND" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT   " />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
